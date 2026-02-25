@@ -1,0 +1,41 @@
+/* ============================================================
+                   PADROS FIREFOX Settings
+   ============================================================ */
+
+/* 1. Gereksizleri Gizle ve URL'yi Ortala */
+#TabsToolbar { visibility: collapse !important; }
+#sidebar-header { display: none !important; }
+#sidebar-splitter { display: none !important; }
+#urlbar-input { text-align: center !important; }
+
+#sidebar-box {
+  position: absolute !important;
+  display: flex !important;
+  flex-direction: column !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  z-index: 100 !important;
+  
+
+  min-width: 5px !important;
+  width: 5px !important;
+  max-width: 260px !important;
+  
+  transition: width 0.2s ease, min-width 0.2s ease !important;
+  background-color: var(--lwt-accent-color) !important;
+  box-shadow: 2px 0 10px rgba(0,0,0,0.5) !important;
+  overflow: hidden !important;
+}
+
+#sidebar-box:hover {
+  min-width: 260px !important;
+  width: 260px !important;
+}
+
+#sidebar {
+  min-width: 260px !important;
+  width: 260px !important;
+  flex-grow: 1 !important;
+  border: none !important;
+}
