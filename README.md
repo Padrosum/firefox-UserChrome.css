@@ -1,5 +1,7 @@
 # Padros Minimalist Firefox (Floating Sidebar) 🦊
 
+![Banner](https://github.com/Padrosum/firefox-UserChrome.css/banner.png)
+
 Bu depo, Firefox'u hantal ve kalabalık arayüzünden kurtarıp, tam odaklı bir "iş istasyonuna" dönüştüren özel bir `userChrome.css` yapılandırmasıdır. Sidebery eklentisiyle tam uyumlu çalışır.
 
 Sürekli sayfa genişliğini bozan, siteleri sağa sola kaydıran geleneksel yan panellerin aksine; bu yapılandırma **sayfanın üzerine binen (floating/overlay) ve sadece üzerine gelindiğinde açılan (hover-to-expand)** akıcı bir mekanizma kullanır.
